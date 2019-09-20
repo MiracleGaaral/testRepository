@@ -13,6 +13,7 @@ public class UsersController {
 	@Resource
 	private UsersService usersServiceImpl;
 	
+	
 	@RequestMapping("show")
 	public String show(Model model) {
 		model.addAttribute("list",usersServiceImpl.show());
