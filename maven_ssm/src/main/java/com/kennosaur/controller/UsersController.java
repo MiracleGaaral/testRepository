@@ -11,8 +11,7 @@ import com.kennosaur.service.UsersService;
 @Controller
 public class UsersController {
 	@Resource
-	private UsersService usersServiceImpl;
-	
+	private UsersService usersServiceImpl;	
 	
 	@RequestMapping("show")
 	public String show(Model model) {
